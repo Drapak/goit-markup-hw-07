@@ -1,0 +1,50 @@
+.portfolio {
+    padding: 94px 0;
+}
+
+.portfolio-list-bt {
+    display: flex;
+}
+
+.portfolio .container {
+    flex-direction: column;
+}
+
+.page-nav.list {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-list-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.page-nav .portfolio-bt {
+    background-color: var(--second-bg-color--);
+    color: var(--primary-text-color--);
+    padding: 6px 22px;
+    height: 38px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: color var(--primary-transition-time--) var(--primary-cubic-function--),
+        background-color var(--primary-transition-time--) var(--primary-cubic-function--),
+        box-shadow var(--primary-transition-time--) var(--primary-cubic-function--);
+    &:hover,
+    &:focus {
+            box-shadow: var(--page-nav-shadow-set--);
+            background-color: var(--accent-text-color--);
+            color: var(--primary-bg-color--);
+        }
+}
+.page-nav .current {
+    box-shadow: var(--page-nav-shadow-set);
+    background-color: var(--accent-text-color--);
+    color: var(--third-text-color--);
+    cursor: pointer;
+}

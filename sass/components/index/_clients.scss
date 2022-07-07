@@ -1,0 +1,47 @@
+.clients {
+    padding: 94px 0;
+
+}
+
+.clients-title {
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+}
+
+.container {
+    display: block;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients .link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--svg-links-color--);
+    border-radius: 4px;
+    color: var(--svg-links-color--);
+    transition: color var(--primary-transition-time--) var(--primary-cubic-function--),
+        border-color var(--primary-transition-time--) var(--primary-cubic-function--);
+        &:hover,
+        &:focus {
+                border-color: var(--accent-text-color--);
+                color: var(--accent-text-color--);
+            }
+}
+
+
+.clients-icon {
+    fill: currentColor;
+}
