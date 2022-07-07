@@ -10,16 +10,16 @@
     flex-direction: column;
 }
 
-.page-nav.list {
+.portfolio__nav.list {
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.portfolio-list-item:not(:last-child) {
+.portfolio__list-item:not(:last-child) {
     margin-right: 8px;
 }
 
-.page-nav .portfolio-bt {
+.portfolio__nav .portfolio__bt {
     background-color: var(--second-bg-color--);
     color: var(--primary-text-color--);
     padding: 6px 22px;
@@ -42,7 +42,7 @@
             color: var(--primary-bg-color--);
         }
 }
-.page-nav .current {
+.portfolio__nav .current {
     box-shadow: var(--page-nav-shadow-set);
     background-color: var(--accent-text-color--);
     color: var(--third-text-color--);

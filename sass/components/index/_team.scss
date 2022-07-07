@@ -1,30 +1,30 @@
-.about {
+.team {
     padding: 94px 0;
     background: var(--second-bg-color--);
 }
 
-.about .container {
+.team .container {
     flex-direction: column;
 }
 
-.about-item {
+.team__item {
     background: var(--primary-bg-color--);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.about-container {
+.team__container {
     padding: 30px 32px 30px 32px;
     background-color: var(--primary-bg-color--);
 }
 
-.about-item:not(:last-child) {
+.team__item:not(:last-child) {
     margin-right: 30px;
 }
 
 
-.about-title {
+.team__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -34,11 +34,11 @@
     color: var(--primary-text-color--);
 }
 
-.about-list {
+.team__list {
     display: flex;
 }
 
-.about-name {
+.team__name {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -50,7 +50,7 @@
     color: var(--primary-text-color--)
 }
 
-.about-text {
+.team__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -60,14 +60,14 @@
     color: var(--secondary-text-color--)
 }
 
-.about .masters-soc-link {
+.team .team__soc-link {
     color: var(--svg-links-color--);
     transition: color var(--primary-transition-time--) var(--primary-cubic-function--),
         background-color var(--primary-transition-time--) var(--primary-cubic-function--);
 }
 
-.about .link:hover,
-.about .link:focus {
+.team .link:hover,
+.team .link:focus {
     color: var(--primary-bg-color--);
     background-color: var(--accent-text-color--);
 }
@@ -77,23 +77,23 @@
     height: auto;
 }
 
-.masters-soc-list {
+.team__soc-list {
     display: flex;
     justify-content: center;
 
 }
 
-.masters-soc-item {
+.team__soc-item {
     width: 44px;
     height: 44px;
     margin-left: 10px;
 }
 
-.masters-soc-item:first-child {
+.team__soc-item:first-child {
     margin-left: 0;
 }
 
-.masters-soc-link {
+.team__soc-link {
     display: flex;
     width: 44px;
     height: 44px;

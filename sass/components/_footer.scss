@@ -12,7 +12,7 @@
     align-items: baseline;
 }
 
-.adress__logo {
+.footer__logo-link {
     color: var(--primary-text-color);
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -20,7 +20,7 @@
     line-height: 1.19;
 }
 
-.logo-web {
+.footer__logo-web {
     color: var(--accent-text-color--);
 }
 
@@ -33,15 +33,15 @@
     margin-right: 70px;
 }
 
-.footer .adress__logo {
+.footer .footer__logo-link {
     margin-bottom: 20px;
 }
 
-.logo-footer {
+.footer__logo-footer {
     color: var(--footer-text-color--);
 }
 
-.location {
+.adress__location {
     margin-bottom: 9px;
     color: var(--footer-text-color--);
 }
@@ -50,8 +50,8 @@
     margin-bottom: 9px;
 }
 
-.footer-mail,
-.footer-telephone {
+.footer__mail,
+.footer__telephone {
     color: var(--footer-contacts-color--);
     transition: color var(--primary-transition-time--) var(--primary-cubic-function--);
     &:hover,
@@ -62,10 +62,7 @@
             transition: color var(--primary-transition-time--) var(--primary-cubic-function--);
         }
 }
-
-
-
-.join-title {
+.join__title {
     display: block;
     margin-bottom: 20px;
     color: var(--footer-text-color--);
@@ -87,7 +84,7 @@
 
 
 
-.subscribe-form {
+.subscribe__form {
     display: flex;
     align-items: flex-end;
 }
@@ -101,7 +98,7 @@
 
 }
 
-.subscribe-title {
+.subscribe__title {
     display: block;
     font-size: 14px;
     line-height: 1.14;
@@ -111,7 +108,7 @@
 
 }
 
-.footer .email-field {
+.footer .subscribe__input {
     color: var(--primary-bg-color--);
     width: 358px;
     height: 50px;
@@ -121,7 +118,7 @@
     background-color: var(--footer-background-color--);
 }
 
-.subscribe-button {
+.subscribe__button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,7 +138,7 @@
     margin-left: 12px;
 }
 
-.send-icon {
+.subscribe__icon {
     margin-left: 10px;
 }
 
@@ -150,7 +147,7 @@
     justify-content: center;
 }
 
-.social-link {
+.social__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -159,10 +156,10 @@
     border-radius: 50%;
 }
 
-.socials-item:not(:last-child) {
+.socials__item:not(:last-child) {
     margin-right: 10px;
 }
 
-.social-icon {
+.social__icon {
     fill: currentcolor;
 }
