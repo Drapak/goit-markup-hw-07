@@ -47,7 +47,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
-    color: var(--primary-text-color--)
+    color: var(--primary-text-color--);
 }
 
 .team__text {
@@ -57,13 +57,26 @@
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
-    color: var(--secondary-text-color--)
+    color: var(--secondary-text-color--);
+}
+.team-icon {
+    fill: currentColor;
+}
+.team__soc-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--primary-bg-color--);
+
 }
 
 .team .team__soc-link {
     color: var(--svg-links-color--);
     transition: color var(--primary-transition-time--) var(--primary-cubic-function--),
-        background-color var(--primary-transition-time--) var(--primary-cubic-function--);
+    background-color var(--primary-transition-time--) var(--primary-cubic-function--);
 }
 
 .team .link:hover,
@@ -91,15 +104,4 @@
 
 .team__soc-item:first-child {
     margin-left: 0;
-}
-
-.team__soc-link {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: var(--primary-bg-color--);
-
 }

@@ -283,7 +283,7 @@ body {
   color: var(--footer-text-color--);
 }
 
-.address li:not(:last-child) {
+.address .info:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -329,7 +329,7 @@ body {
   margin-right: auto;
 }
 
-.subscribe label {
+.subscribe .input {
   width: 358px;
 }
 
@@ -539,6 +539,20 @@ body {
   color: var(--secondary-text-color--);
 }
 
+.team-icon {
+  fill: currentColor;
+}
+
+.team__soc-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--primary-bg-color--);
+}
+
 .team .team__soc-link {
   color: var(--svg-links-color--);
   transition: color var(--primary-transition-time--) var(--primary-cubic-function--), background-color var(--primary-transition-time--) var(--primary-cubic-function--);
@@ -569,16 +583,6 @@ body {
 
 .team__soc-item:first-child {
   margin-left: 0;
-}
-
-.team__soc-link {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: var(--primary-bg-color--);
 }
 
 .works {
@@ -830,7 +834,7 @@ body {
   color: #2196F3;
 }
 
-.chek-text span {
+.chek-text .chek-icon {
   width: 15px;
   height: 15px;
   margin-right: 8px;
@@ -840,11 +844,11 @@ body {
   justify-content: center;
   border-radius: 2px;
 }
-.input-chek:checked + .chek-text span {
+.input-chek:checked + .chek-text .chek-icon {
   background-color: #2196F3;
   border: none;
 }
-.input-chek:focus + .chek-text span {
+.input-chek:focus + .chek-text .chek-icon {
   border-color: var(--accent-text-color--);
 }
 

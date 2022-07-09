@@ -46,7 +46,7 @@
     color: var(--footer-text-color--);
 }
 
-.address li:not(:last-child) {
+.address .info:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -93,7 +93,7 @@
     margin-right: auto;
 }
 
-.subscribe label {
+.subscribe .input {
     width: 358px;
 
 }
